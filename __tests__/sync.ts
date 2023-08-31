@@ -36,7 +36,7 @@ testsSetup.forEach((setup) => {
   });
 
   // This should not work in this library
-  // use https://www.npmjs.com/package/storage-facade-localstorage
+  // use https://www.npmjs.com/package/storage-facade-sessionstorage
   it.skip(`Sync, ${setup.name}: different names`, () => {
     const storage = createStorage({
       use: new TestedInterface(),
