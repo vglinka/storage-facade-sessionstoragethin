@@ -47,6 +47,8 @@ affecting other data stored in `sessionStorage`, use library
 [storage-facade-sessionstorage](https://www.npmjs.com/package/storage-facade-sessionstorage)
 instead.
 
+There are similar libraries for other storages: [indexedDB](https://www.npmjs.com/package/storage-facade-indexeddb), [localStorage](https://www.npmjs.com/package/storage-facade-localstoragethin), [Map](https://www.npmjs.com/package/storage-facade-map).
+
 # Usage
 
 ## Storage methods
